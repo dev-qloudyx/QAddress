@@ -1,0 +1,7 @@
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="district_data"><label for="district_data">District</label>
+    <input type="file" name="county_data"><label for="county_data">County</label>
+    <input type="file" name="cp_data"><label for="cp_data">Postal Code</label>
+    <button type="submit">Upload</button>
+</form>
